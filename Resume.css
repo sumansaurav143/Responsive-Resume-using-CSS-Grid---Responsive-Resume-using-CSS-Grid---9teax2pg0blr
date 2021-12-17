@@ -52,22 +52,18 @@
 .description{
     font-size: 0.75rem;
     text-align: center;
-    padding-bottom: 1rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .icon{
     list-style-type: none;
 }
-.skill-name{
-    font-size: 0.65rem;
-    text-align: left;
-    padding-bottom: 0.5rem;
-}
+
 .social-media{
     margin-top: 20px;
     margin-left: 15px;
 }
-.skills-title{
+.skills{
     font-size: 0.75rem;
     text-align: center;
     text-transform: uppercase;
