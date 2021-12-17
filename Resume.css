@@ -4,11 +4,14 @@
 .main-content{
     display: grid;
     min-height: 1000px;
-    width: 90%;
+    width: 1000px;
     margin: 20px;
+    background-color: darkmagenta;
     grid-template-areas: "left right";
 }
-
+.left-content{
+    padding: 1rem;
+}
 .left-section{
     min-height: 1000px;
     width: 300px;
@@ -20,14 +23,8 @@
     width: 700px;
     background-color: rgb(230, 226, 219);
     color: #0000;
-}
-.left-content{
-    padding: 1rem;
-}    
-.profile{
-    height: auto;
-    width: auto;
-}
+} 
+
 .profile-image{
     display: block;
     margin: auto;
@@ -62,6 +59,9 @@
 .social-media{
     margin-top: 20px;
     margin-left: 15px;
+}
+.personal-details{
+    margin-left: 15px
 }
 .skills{
     font-size: 0.75rem;
@@ -103,9 +103,8 @@
 @media screen and (max-width: 674px){
     .main-content{
         display: grid;
-        height: 1000px;
-        min-height: 90%;
-        width:100vw;
+        min-height: 1000px;
+        width: 90%;
         grid-template-areas: 'left'
                              'right';
     }
