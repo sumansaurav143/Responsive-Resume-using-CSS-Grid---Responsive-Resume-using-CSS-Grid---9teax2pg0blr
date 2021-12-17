@@ -13,12 +13,14 @@
     padding: 1rem;
 }
 .left-section{
+    display: grid;
     min-height: 1000px;
     width: 300px;
     background-color: rgb(33, 31, 36);
     color: white;
 }
 .right-section{
+    display: grid;
     min-height: 1000px;
     width: 700px;
     background-color: rgb(230, 226, 219);
@@ -109,12 +111,14 @@
                              'right';
     }
     .left-section{
+        display: grid;
         height: 300px;
         width: 100%;
         background-color: rgb(33, 31, 36);
         color: white;
     }
     .right-section{
+        display: grid;
         height: 700px;
         width: 100%;
         background-color: rgb(230, 226, 219);
