@@ -107,24 +107,26 @@
         display: grid;
         min-height: 1000px;
         width: 90%;
+        margin: 20px auto;
+        grid-template-columns: 300px 700px;
         grid-template-areas: 'left'
                              'right';
     }
     .left-section{
-        display: grid;
+        grid-column: span 1;
         height: 300px;
-        width: 100%;
+        width: auto;
         background-color: rgb(33, 31, 36);
         color: white;
     }
     .right-section{
-        display: grid;
+        grid-column: span 1/span 2;
         height: 700px;
-        width: 100%;
+        width: auto;
         background-color: rgb(230, 226, 219);
         color: #0000;
     }
     .profile-image{
-        width: 10%;
+        width: 20%;
     }
 }
