@@ -47,7 +47,7 @@
     padding-bottom: 0.5rem;
 }
 .description{
-    font-size: 0.75rem;
+    font-size: 16px;
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -82,7 +82,7 @@
     border: 1px white solid;
     height: 4px;
 }
-.right-main-section{
+.right-main-content{
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 3rem;
@@ -120,10 +120,5 @@
     }
     .profile-image{
         width: 30%;
-    }
-}
-@media screen and (max-width: 630px){
-    .main-content{
-        grid-template-columns: repeat(1,1fr);
     }
 }
