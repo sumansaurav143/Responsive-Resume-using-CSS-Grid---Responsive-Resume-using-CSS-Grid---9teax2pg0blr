@@ -101,7 +101,7 @@
 
 
 
-@media only screen and (max-width: 673px){
+@media screen and (max-width: 673px){
     .main-content{
         display: grid;
         min-height: 1000px;
@@ -124,7 +124,14 @@
     }
 }
 
-@media only screen and (max-width: 630px){
+@media screen and (max-width: 630px){
+    .main-content{
+        display: grid;
+        min-height: 1000px;
+        width: 90%;
+        margin: 20px auto;
+        grid-template-columns: repeat(1,1fr);
+    }
     .left-section{
         background-color: rgb(31, 16, 68);
         color: white;
