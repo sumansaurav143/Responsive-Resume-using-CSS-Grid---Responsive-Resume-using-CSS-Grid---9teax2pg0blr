@@ -101,7 +101,7 @@
 
 
 
-@media screen and (max-width: 673px){
+@media only screen and (max-width: 673px){
     .main-content{
         display: grid;
         min-height: 1000px;
@@ -124,7 +124,7 @@
     }
 }
 
-/* @media screen and (max-width: 630px){
+@media only screen and (max-width: 630px){
     .left-section{
         background-color: rgb(31, 16, 68);
         color: white;
@@ -134,4 +134,4 @@
         color: #0000;
     }
 }
- */
+
