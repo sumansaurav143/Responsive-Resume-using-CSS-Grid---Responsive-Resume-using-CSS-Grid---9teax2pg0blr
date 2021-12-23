@@ -12,7 +12,7 @@
 .left-section{
     grid-column: span 1;
     min-height: 1000px;
-    background-color: rgb(33, 31, 36);
+    background-color: black;
     color: white;
 }
 .left-content{
@@ -47,7 +47,7 @@
     padding-bottom: 0.5rem;
 }
 .description{
-    font-size: 0.75rem;
+    font-size: 16px;
     text-align: center;
     padding: 1rem;
 }
@@ -99,6 +99,8 @@
     color: #000;
 }
 
+
+
 @media screen and (max-width: 674px){
     .main-content{
         display: grid;
@@ -110,14 +112,25 @@
                              'right';
     }
     .left-section{
-        background-color: rgb(33, 31, 36);
+        background-color: rgb(49, 31, 16);
         color: white;
     }
     .right-section{
-        background-color: rgb(230, 226, 219);
+        background-color: rgb(207, 202, 192);
         color: #0000;
     }
     .profile-image{
         width: 30%;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .left-section{
+        background-color: rgb(31, 16, 68);
+        color: white;
+    }
+    .right-section{
+        background-color: rgb(189, 202, 184);
+        color: #0000;
     }
 }
